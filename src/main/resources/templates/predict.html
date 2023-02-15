@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet", th:href="@{bootstrap.css}">
+    <link rel="stylesheet", th:href="@{bootstrap.min.css}">
+    <link rel="stylesheet", th:href="@{style.css}">
+    <title>붓꽃 분류 AI</title>
+</head>
+<body>
+    <div th:if="${data == '1'}">
+        <img th:src="@{img/sesota.jpeg}", th:class="img-responsive">
+        그 붓꽃은 세토사 입니다.
+        <div>
+            세토사는 동북아시아, 중국 , 한국 과 남쪽으로 일본. 식물은 키가 큰 줄기, 중간 녹색 잎과 보라색, 보라색-파란색, 보라색-파란색, 파란색에서 라벤더 꽃이 있습니다.
+            분홍색과 흰색 꽃이 피는 식물도 있습니다.
+        </div>
+    </div>
+<!--    <div >-->
+<!--    <img src="../static/img/sesota.jpeg", height="150", width="150">-->
+<!--    <div th:if="{data == 1}", style="font-weight: bold;">그 붗꽃은 세토사 입니다.</div>-->
+
+<!--        세토사는 동북아시아, 중국 , 한국 과 남쪽으로 일본. 식물은 키가 큰 줄기, 중간 녹색 잎과 보라색, 보라색-파란색, 보라색-파란색, 파란색에서 라벤더 꽃이 있습니다.-->
+<!--        분홍색과 흰색 꽃이 피는 식물도 있습니다.-->
+<!--    </div>-->
+<!--    th:if="{data == 2}"-->
+<!--    <img src="../static/img/versicolor.jpg", height="150", width="150">-->
+<!--    <div style="font-weight: bold;">그 붗꽃은 버시칼라 입니다.</div>-->
+<!--    <div>-->
+<!--        버시칼라는 일반적으로 파란색 깃발, 할리퀸 파란색 깃발, 더 큰 파란색 깃발,-->
+<!--        북부 파란색 깃발 및 독 깃발로 알려져 있으며 이러한 이름의 다른 변형과-->
+<!--        영국과 아일랜드에서는 보라색 홍채로 알려져 있습니다.-->
+<!--    </div>-->
+<!--    th:if="{data == 3}"-->
+<!--    <img src="../static/img/virginica.jpg", height="150", width="150">-->
+<!--    <div style="font-weight: bold;">그 붗꽃은 버지니카 입니다.</div>-->
+<!--    <div>-->
+<!--        버지니카는 북아메리카 동부가 원산지인 다년생 꽃 식물입니다.-->
+<!--        플로리다에서 미국 남동부의 조지아까지 해안 평야를 따라 흔합니다.-->
+<!--    </div>-->
+<!--    {% endif %}-->
+<!--    <button onclick=location.href="/">뒤로가기</button>-->
+</body>
+</html>
