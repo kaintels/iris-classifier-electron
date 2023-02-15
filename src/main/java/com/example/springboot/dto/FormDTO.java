@@ -1,6 +1,6 @@
-package com.example.springboot.vo;
+package com.example.springboot.dto;
 
-public class FormDVO {
+public class FormDTO {
     private String a;
 
     public String getA() {
@@ -39,7 +39,7 @@ public class FormDVO {
     private String c;
     private String d;
 
-    public FormDVO(String a, String b, String c, String d) {
+    public FormDTO(String a, String b, String c, String d) {
         this.a = a;
         this.b = b;
         this.c = c;
