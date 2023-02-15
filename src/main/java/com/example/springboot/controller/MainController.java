@@ -1,6 +1,6 @@
 package com.example.springboot.controller;
 
-import com.example.springboot.vo.FormDVO;
+import com.example.springboot.dto.FormDTO;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,7 +16,7 @@ public class MainController {
     }
 
     @PostMapping("predict")
-    public String hello(FormDVO formDVO, Model model) {
+    public String hello(FormDTO formDVO, Model model) {
         model.addAttribute("data", formDVO.getA());
         System.out.println(formDVO.getA());
         return "predict";
