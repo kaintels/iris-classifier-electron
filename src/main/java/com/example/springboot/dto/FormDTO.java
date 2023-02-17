@@ -1,7 +1,6 @@
 package com.example.springboot.dto;
 
 public class FormDTO {
-    private String a;
 
     public String getA() {
         return a;
@@ -35,16 +34,17 @@ public class FormDTO {
         this.d = d;
     }
 
-    private String b;
-    private String c;
-    private String d;
-
     public FormDTO(String a, String b, String c, String d) {
         this.a = a;
         this.b = b;
         this.c = c;
         this.d = d;
     }
+
+    private String a;
+    private String b;
+    private String c;
+    private String d;
 
     @Override
     public String toString() {
