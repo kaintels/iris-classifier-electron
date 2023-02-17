@@ -8,7 +8,7 @@ function createWindow() {
 
     /** 기본 데스크톱 앱 사이즈 설정 */
     const win = new BrowserWindow({
-        width:1080,
+        width:720,
         height:720,
         webPreferences: {
             webSecurity: false
