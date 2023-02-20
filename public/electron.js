@@ -9,10 +9,11 @@ function createWindow() {
     /** 기본 데스크톱 앱 사이즈 설정 */
     const win = new BrowserWindow({
         width:720,
-        height:720,
+        height:600,
         webPreferences: {
             webSecurity: false
-        }
+        },
+        resizable : false
     });
 
     /*
@@ -32,7 +33,7 @@ function createWindow() {
 /** 초기화가 끝나게 되면 실행 */
 app.on('ready', () => {
     // 메인 창 생성
-    const result = require('child_process').spawn('java', [ '-jar' , "./resources/spring-boot-0.0.1-SNAPSHOT.jar"]);
+    const result = require('child_process').spawn('java', [ '-jar' , "./build/libs/spring-boot-0.0.1-SNAPSHOT.jar"]);
 // 3. stdout의 'data'이벤트리스너로 실행결과를 받는다.
 
 
