@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import react, {useState, useEffect} from "react";
-import './App.css';
 import axios from "axios";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
@@ -38,9 +37,9 @@ function App() {
           </HashRouter>
           <Footer>
           </Footer>
+          {/*{testStr.project}*/}
+          {/*{testStr.date}*/}
       </div>
-        // {/*{testStr.project}*/}
-        // {/*{testStr.date}*/}
   );
 }
 
