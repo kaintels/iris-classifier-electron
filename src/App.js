@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import react, {useState, useEffect} from "react";
 import './App.css';
 import axios from "axios";
+import Header from "./component/Header";
+import Footer from "./component/Footer";
 
 
 function App() {
@@ -23,13 +25,14 @@ function App() {
 
 
   return (
-      <h1>
-        {testStr.project}
-        <div>
-
-        </div>
-        {testStr.date}
-      </h1>
+      <div>
+          <Header>
+          </Header>
+          <Footer>
+          </Footer>
+      </div>
+        // {/*{testStr.project}*/}
+        // {/*{testStr.date}*/}
   );
 }
 
