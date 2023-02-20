@@ -23,7 +23,7 @@ function createWindow() {
     //   win.webContents.openDevTools();
     // }
     /** 시작 포인트 실행 */
-    win.loadURL("http://localhost:5555/");
+    win.loadFile("./build_react/index.html");
 }
 
 /* Electron =====================================================*/
