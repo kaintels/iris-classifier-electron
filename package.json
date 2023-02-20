@@ -30,7 +30,8 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^23.1.0"
+    "electron": "^23.1.0",
+    "electron-builder": "^23.6.0"
   },
   "build": {
     "extends": null,
@@ -71,6 +72,7 @@
     "http-proxy-middleware": "^2.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
     "react-scripts": "^5.0.1",
     "serve": "^14.2.0",
     "wait-on": "^7.0.1",
