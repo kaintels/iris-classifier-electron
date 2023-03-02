@@ -1,5 +1,5 @@
 {
-  "name": "spring-boot",
+  "name": "iris-classifier-electron",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "public/electron.js",
@@ -35,7 +35,7 @@
   },
   "build": {
     "extends": null,
-    "productName": "spring-boot",
+    "productName": "iris-classifier-electron",
     "asar": true,
     "win": {
       "target": "nsis"
@@ -46,8 +46,8 @@
     },
     "extraFiles": [
       {
-        "from": "./build/libs/spring-boot-0.0.1-SNAPSHOT.jar",
-        "to": "./resources/spring-boot-0.0.1-SNAPSHOT.jar"
+        "from": "./build/libs/iris-classifier-electron-0.0.1-SNAPSHOT.jar",
+        "to": "./resources/iris-classifier-electron-0.0.1-SNAPSHOT.jar"
       },
       {
         "from": "./build_react/",
