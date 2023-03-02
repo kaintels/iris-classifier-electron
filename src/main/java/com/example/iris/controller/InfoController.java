@@ -1,6 +1,6 @@
-package com.example.springboot.controller;
+package com.example.iris.controller;
 
-import com.example.springboot.dto.ProjectDTO;
+import com.example.iris.dto.ProjectDTO;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
